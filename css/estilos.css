@@ -198,6 +198,7 @@ nav ul li a:hover{
 .MenuDistritos  ul {
 
   padding-top: 30px;
+    list-style: none;
   }
   
 .MenuDistritos  li a:hover{
@@ -205,6 +206,7 @@ nav ul li a:hover{
 	text-shadow: 0px 0px 1px #ffffff;
 	padding-left:20px;
 	text-transform:uppercase;
+    
 }
 
 

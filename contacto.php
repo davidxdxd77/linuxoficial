@@ -29,43 +29,43 @@
 	<section id="contactos">
 		<h2>Contacta a cualquiera de nuestros administradores:</h2>
 		<figure>
-			<a href="https://www.facebook.com/davidrojasherrera1"><img src="img/david.jpg" alt=""></a>
+			<a href="https://www.facebook.com/davidrojasherrera1"><img src="contactos/david.jpg" alt=""></a>
 			<a href="https://www.facebook.com/davidrojasherrera1"><h3>David Rojas</h3></a>	
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/Zetha.Script"><img src="img/max.jpg" alt=""></a>
+			<a href="https://www.facebook.com/Zetha.Script"><img src="contactos/max.jpg" alt=""></a>
 			<a href="https://www.facebook.com/Zetha.Script"><h3>Maximiliano Aravena</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/d3ssloch?fref=ts"><img src="img/david2.jpg" alt=""></a>
+			<a href="https://www.facebook.com/d3ssloch?fref=ts"><img src="contactos/david2.jpg" alt=""></a>
 			<a href="https://www.facebook.com/d3ssloch?fref=ts"><h3>David Sky Walker</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/felipe.schlotterbeck"><img src="img/felipe.jpg" alt=""></a>
+			<a href="https://www.facebook.com/felipe.schlotterbeck"><img src="contactos/felipe.jpg" alt=""></a>
 			<a href="https://www.facebook.com/felipe.schlotterbeck"><h3>Felipe Salazar</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/muy.rebuscado?fref=ts"><img src="img/rebuscado.jpg" alt=""></a>
+			<a href="https://www.facebook.com/muy.rebuscado?fref=ts"><img src="contactos/rebuscado.jpg" alt=""></a>
 			<a href="https://www.facebook.com/muy.rebuscado?fref=ts"><h3>Muy Rebuscado</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/CarlosMatiasVG"><img src="img/matias.jpg" alt=""></a>
+			<a href="https://www.facebook.com/CarlosMatiasVG"><img src="contactos/matias.jpg" alt=""></a>
 			<a href="https://www.facebook.com/CarlosMatiasVG"><h3>Matias Vera</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/T.Yuke"><img src="img/ariel.jpg" alt=""></a>
+			<a href="https://www.facebook.com/T.Yuke"><img src="contactos/ariel.jpg" alt=""></a>
 			<a href="https://www.facebook.com/T.Yuke"><h3>Ariel Conejeros</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/Shordinsohky?fref=ts"><img src="img/yordi.jpg" alt=""></a>
+			<a href="https://www.facebook.com/Shordinsohky?fref=ts"><img src="contactos/yordi.jpg" alt=""></a>
 			<a href="https://www.facebook.com/Shordinsohky?fref=ts"><h3>yordi Reyes</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/tanatosxx?fref=ts"><img src="img/alex.jpg" alt=""></a>
+			<a href="https://www.facebook.com/tanatosxx?fref=ts"><img src="contactos/alex.jpg" alt=""></a>
 			<a href="https://www.facebook.com/tanatosxx?fref=ts"><h3>Alex Chavez</h3></a>
 		</figure>
 		<figure>
-			<a href="https://www.facebook.com/sos.pc.104"><img src="img/emilio.jpg" alt=""></a>
+			<a href="https://www.facebook.com/sos.pc.104"><img src="contactos/emilio.jpg" alt=""></a>
 			<a href="https://www.facebook.com/sos.pc.104"><h3>Emilio Sos pc</h3></a>
 		</figure>
 	</section>
