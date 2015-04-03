@@ -28,8 +28,8 @@
 			<li><a href="contacto.php">Contacto</a></li>
 </ul>
 	</nav>
-	<h2 id="bienvenidos">Bienvenidos</h2>
-	<section id="distros">
+	<!--h2 id="bienvenidos">Bienvenidos</h2-->
+	<section id="home">
 	<img src="img/note.jpg" alt="">
 	<div id="slider">
 			<div><img src="img/1.jpg"></div>
@@ -40,6 +40,30 @@
 			<div><img src="img/6.jpg"></div>
 		</div>
 	</div>
+	</section>
+	<h2 id="text-noticias">Lo ultimo en linux</h2>
+	<section id="noticias">
+				<article class="cont-noticias">
+			<figure>
+				<img src="noticias/img/manjaro.jpg">
+			</figure>
+			<p>llega la beta 5 de manjaro 0.9 y se dice que habrá muchos cambios</p>
+			<a href=""><p><strong>Ver mas...</strong></p></a>
+		</article>
+		<article class="cont-noticias">
+			<figure>
+				<img src="noticias/img/ubuntu.jpg">
+			</figure>
+			<p>Ya esta disponible el nuevo ubuntu 15.04, pero a un no es 100% estable</p>
+			<a href=""><p><strong>Ver mas...</strong></p></a>
+		</article>
+				<article class="cont-noticias">
+			<figure>
+				<img src="noticias/img/crunchbang.jpg">
+			</figure>
+			<p>El proyecto crunch bang llegó a su fín... el creador dice que ya no segira en el proyecto</p>
+			<a href=""><p><strong>Ver mas...</strong></p></a>
+		</article>
 	</section>
 	<footer>
 		<p>Web creada por la comunidad linux chile</p>
