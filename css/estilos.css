@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: white;
+	font-family: 'Open Sans';
+}
+footer{
+	width: 100%;
+    bottom: 0;
+    left: 0;
+	border-top: 3px solid #0688F2;
+	height: 100px;
+}
+footer p{
+	  color: #424439;
+  text-align: center;
+  font-size: small;
+  padding-top: 3px;
+}
+header{
+	background: #0688F2;
+}
+header #logo{
+	padding: 20px 40px;
+	padding-right: 0.5em;
+}
+header #logo img{
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	width: 400px;
+}
+header h1{
+	color: #424439;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+header h4{
+	color: #424439;
+	font-size: 28px;
+	margin: 20px;
+	text-align: center;
+}
+header #welcome{
+	color: #424439;
+	font-size: 100px;
+	text-align: center;
+}
+nav{
+	background: #0688F2;
+	float: right;
+	margin: 3em 0.5em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+nav ul{
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px;
+	
+
+}
+nav ul li a{
+	color: white;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: yellow; 
+}
+/*id y clases*/
+#about{
+
+}
+#about figure{
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	margin: 20px;
+}
+#activo{
+	 background-color: #EEEEEE;
+  	 color: #2a2a2a;
+  	-webkit-border-radius: 4px;
+  	-moz-border-radius: 4px;
+ 	 -ms-border-radius: 4px;
+  	border-radius: 4px;
+}
+#activo:hover{
+	color: #0688F2;
+}
+#bienvenidos{
+	text-align: center;
+	font-size: 100px;
+	margin: 25px;
+	color: #424439;
+}
+#contactos{
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	margin-bottom: 30px;
+}
+#contactos h2{
+	color: #424439;
+	font-size: 28px;
+	margin: 20px;
+}
+#contactos img{
+	margin: 40px 40px 10px 40px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+#contactos figure{
+	display: inline-block;
+}
+#contactos figure a{
+	text-decoration: none;
+	color: #424439;
+}
+#contactos figure a:hover{
+	color: #0688F2;
+}
+/*AQUI VAN LOS TUTORIALES*/
+#contenido{
+	width: 100%;
+}
+#contenido .articulo{
+	margin: 0px 70px;
+}
+#contenido .articulo figure{
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	margin: 20px;
+}
+#contenido .articulo figure img{
+	margin: 40px;
+}
+#contenido .articulo h2{
+	margin: 20px 20px 40px 20px;
+	text-align: center;
+}
+#contenido .articulo h4{
+	color: #4F4F4F;
+	font-size: 30px;
+	margin-top: 25px;
+	text-align: center;
+}
+#contenido .articulo p{
+	text-align: left;
+	font-size: 16px;
+	margin: 40px;
+}
+#distros{
+	width: 100%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	height: 600px;
+	
+}
+.MenuDistritos{
+  background: linear-gradient( to bottom, #0688F2, #FFFFFF);
+  width: 30%;
+  height: 100%;
+  border-radius: 0px 0px 100%;
+    box-shadow: 4px 4px 7px #888887;
+}
+.MenuDistritos  ul {
+
+  padding-top: 30px;
+  }
+  
+ .MenuDistritos  li a:hover{
+	color:#FFF;
+	text-shadow: 0px 0px 1px #ffffff;
+	padding-left:20px;
+	text-transform:uppercase;
+}
+
+
+.MenuDistritos   li a{
+text-decoration: none;
+ /* color: white;*/
+  line-height: 30px;
+  
+  
+	color:white;
+
+  }
+/*Slider*/
+#slider{
+	margin-top:-420px;
+	position: relative;
+}
+#slider img{
+width:641px;
+
+}
+#slider > div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}/*aqui termina el slider*/
+#streaming{
+	padding:10px 30px 30px 30px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+#streaming #intro{
+	color: #444;
+	font-size: 38px;
+	padding: 12px 10px;
+}
+#subtitulo{
+	color: #424439;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+#tutoriales{
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+#tutoriales h4{
+	font-size: 32px;
+	color: #646464;
+	margin: 20px;
+}
+#tutoriales #contenidos{
+	margin: 18px;
+	display: inline-block;
+	background: #F5F5F3;
+	border-bottom: 3px solid #ccc;
+	padding: 20px;
+	width: 250px;
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    1px 1px 4px 0px rgba(50, 50, 50, 0.68);
+	box-shadow:         1px 1px 4px 0px rgba(50, 50, 50, 0.68);
+}
+#tutoriales #contenidos:hover{
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+    transition: 0.3s;
+	-webkit-box-shadow: 1px 2px 15px 8px rgba(6,136,242,1);
+	-moz-box-shadow: 1px 2px 15px 8px rgba(6,136,242,1);
+	box-shadow: 1px 2px 15px 8px rgba(6,136,242,1);
+}
+#tutoriales #contenidos a{
+	font-size: 15px;
+	color: #444444;
+	text-decoration: none;
+}
+#tutoriales #contenidos p{
+	padding-top: 8px;
+	font-size: 12px;
+	font-family: 'Arial';
+	color: #646464;
+}

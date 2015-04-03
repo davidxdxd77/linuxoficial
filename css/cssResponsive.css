@@ -1,0 +1,93 @@
+
+/*Menu Responsive maquetacion tablet*/
+@media screen and (max-width: 1240px){
+
+	nav{
+		margin-top: 2.2em;
+	}
+	nav ul li{
+		padding: 5px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+	header #logo img{
+		width: 300px;
+	}
+}
+@media screen and (max-width: 1036px){
+	nav{
+		margin-top: 2.1em;
+	}
+	nav ul li{
+		padding: 3px;
+	}
+	header #logo img{
+		width: 250px;
+	}
+}
+@media screen and (max-width: 925px){
+	
+	nav{
+		position: relative;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	header{
+		display: none;
+	}
+}
+@media screen and (max-width: 880px){
+	nav ul li{
+		padding: 25px 10px; 
+	}
+	nav ul li a{
+
+	}
+	#contenido .articulo{
+		margin: 0;
+	}
+	header #avatar{
+		display: none;
+	}
+}
+/*Menu Responsive maquetacion movil*/
+@media screen and (max-width: 725px){
+	nav{
+		height: auto;
+	}
+	#contenido .articulo{
+		margin: 0;
+	}
+	#distros img{
+		width: 80%;
+	}
+	#slider{
+		display: none;
+	}
+	footer p{
+		padding-top: 7px;
+	}
+	#welcome{
+		display: none;
+	}
+}
+@media screen and (max-width: 660px){
+
+	#contenido .articulo figure{
+		margin: 0;
+		padding: 0;
+	}
+	#contenido .articulo figure img{
+		width: 75%;
+	}
+}
+@media screen and (max-width: 400px){
+		header h1{
+		margin-top: 20px;
+	}
+		header figure{
+		display: none;
+	}
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="../../css/estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<figure id="logo">
+			<img src="../../img/logo-linux.png" alt="">
+		</figure>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="../../index.php">Inicio</a></li>
+			<li><a href="../../que-es-linux.php">¿Qué es linux?</a></li>
+			<li><a href="../../tutoriales.php" id="activo">Tutoriales</a></li>
+			<li><a href="../../streaming.php">Acerca de</a></li>
+			<li><a href="../../contacto.php">Contacto</a></li>
+		</ul>
+	</nav>
+	<section id="contenido">
+		<article class="articulo">
+			<h4>Como Instalar cualquier version de ubuntu</h4>
+
+			<h2>1.- La Bienvenida.</h2>
+
+			<p>Lo Primero es seleccionar el icono de instalar ubuntu ,seguido de configurar el Idioma, en este caso seleccionamos Español y hacemos clik sobre Instalar Ubuntu</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte1.png" alt="">
+			</figure>
+			<h2>2.- Preparando la Instalación.</h2>
+
+			<p>El instalador buscará que tengamos el mínimo requerido de espacio para instalar el sistema que estemos conectados a internet y en el caso de Laptops y/o Netbooks que este conectado el cargado</p>
+
+			<p>También contamos con con la Opción de Descargar Actualizaciones durante la Instalación y Descargar Software de Terceros, ambas son opciones pero recomendable marcar las casillas ya que de cualquier forma tendremos que hacerlo una vez instalado.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte2.png" alt="">
+			</figure>
+			<h2>3.- Opciones de Instalación.</h2>
+
+			<p><strong>Tenemos diferentes tipos de Instalación:</strong></p>
+
+			<p>La primera Borrar Disco e Instalar Ubuntu: Arrasa con todo el disco e Instala Ubuntu, ideal si no queremos rompernos la cabeza particionando y solo exisistira Ubuntu en el Disco.
+			</p>
+
+			<p>Pero en este caso lo haremos de la manera interesa y personalizada, pues para eso usamos GNU/Linux para decidir como van a ir las cosas.</p>
+
+			<p>Elegimos la opciones de mas opciones para crear nuestra propia tabla de aprticiones y damos clik en continuar.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte3.png" alt="">
+			</figure>
+			<h2>4.- Particionamiento del Disco.</h2>
+
+			<p>De todas es la parte en la que muchos a veces tienen dudas, vamos a dar la explicación y haber alguna duda no duden en comentar y con todo gusto los ayudamos.
+			</p>
+
+			<p>Todo va a depender si ya tenemos una tabla de particiones hecha, de ser así unicamente deberemos de montar los, seleccionando la partición y dar clik en cambiar > Usar Como EXt4 y elegir el punto de montaje. (/boot, /, (home, etc,,,)</p>
+
+			<p>Vamos a crear una nueva tabla de particiones, seleccionamos el disco duro y comenzamos, en cada vez tendremos que hacer clik sobre "Espacio Libre" y hacer clik en "+", para ir creando particiones.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte4.png" alt="">
+			</figure>
+			<p><strong>4.1 Creación del /boot</strong></p>
+
+			<p>La primera partición que crearemos sera la del /boot, aqui es donde se instala el cargador de arranque GRUB, lo recomendable son 100 MB, aunque yo uso 200 MB por si acaso, algunos piensan que 200 MB es demasiado, es relativo pero los expertos opinan que 100 MB es lo correcto.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte4.1.png" alt="">
+			</figure>
+			<p><strong>4.2 El Área de Intercambio o SWAP:</strong></p>
+
+			<p>Esta partición es el "ayudante" a la memoria RAM, sirve para intercambiar las aplicaciones que no has utilizado por algún tiempo en tu sesión, cuando esto pasa la descarga en el SWAP para poder liberar algo de RAM y seguir trabajando, así que el tamaño de esta partición dependerá de cuanta RAM tienes, se recomienda un tamaño doble de lo que tengas de Memoria RAM siempre y cuando no exeda los 2 GB de SWAP .Si tenemos 2 GB o mas en RAM no necesitamos mucha SWAP, algunos priensan que el tamaño maximo de Swap debe de ser de 1 GB si cuentas con mas de 2 GB en RAM.</p>
+
+			<p>En este casi, en esta maquina tengo 6 GB, pondrmeos un SWAP de 1 GB.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte4.2.png" alt="">
+			</figure>
+			<p><strong>4.3 La Particion Raiz (/)</strong></p>
+
+			<p>Aquí es donde va instalado todo el SO y las aplicaciones, así de igual manera dependerá del tamaño de tu disco y tus necesidades, con 12 GB estará bien, aun que en mi PC personal la hago de 20 GB por la gran cantidad de aplicaciones que instalo :D,, en la siguiente imagen el tamaño es de 15 GB si tienes un disco grande seria bueno tener este tamaño, por si acaso.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte4.3.png" alt="">
+			</figure>
+			<p><strong>4.4 El Home (/Home)</strong></p>
+
+			<p>Donde quedaran todos los archivos personales de todos los usuarios. una vez creado todo lo de arriba lo que debemos de hacer es dejar el resto del espacio disponible para el Home, sino estaremos desperdiciando espacio en el Disco duro, al menos que vayamos a Instalar otra Distribución,pero en este caso NO, así que dejamos el restante disponible para el HOME</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte4.4.png" alt="">
+			</figure>
+			<p><strong>4.5 Resultado del Particionamiento.</strong></p>
+
+			<p>la tabla de particionamiento nos debe de quedar algo como lo de la siguiente imagen que esta basado en un disco de 80 GB, hago énfasis  no te tiene que quedar igual cada quien decide cuanto ponerle a sus particiones.
+			</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte4.5.png" alt="">
+			</figure>
+			<h2>5. Pasos Finales</h2>	
+
+			<p>Lo que sigue después de esto son pasos muy sencillos, veamos</p>	
+
+			<p>Configuramos donde estamos, esto es para la Zona Horaria.</p>	
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte5.png" alt="">
+			</figure>
+			<p>Luego la distribución del teclado.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte5.1.png" alt="">
+			</figure>
+			<p>Finalmente los datos del Usuario, no hay mucho que explicar, solo en la opción cifrar carpeta, es recomendable si manejamos información sensible de nuestra empresa, trabajo etc... </p>
+
+			<p><strong>NOTA:</strong> Si ciframos la carpeta y después montamos el home al re instalar el sistema este deberá de ser el mismo usuario, misma contraseña y misma distribución de lo contrario no podremos acceder a esta información. USAR CON PRECAUCIÓN.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte5.2.png" alt="">
+			</figure>
+			<p>Esperamos a que termine de instalarse el sistema.</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte5.3.png" alt="">
+			</figure>
+			<p>Al finalizar deberemos de reiniciar el sistema, sacar el DVD/ o USB y dar Enter, para que arranque el sistema ya instalado y ya estara instalado ubuntu en nuestro ordenador</p>
+			<figure>
+				<img src="../../img-tuto/img/ubuntu-14.04/parte5.4.png" alt="">
+			</figure>
+		</article>
+	</section>
+	<footer>
+		<p>Web creada por la comunidad linux chile</p>
+		<p>Linux Chile 2015</p>
+	</footer>
+</body>
+</html>

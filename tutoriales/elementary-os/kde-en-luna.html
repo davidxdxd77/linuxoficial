@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Kde en elementary os</title>
+</head>
+<body>
+	<header>
+		<figure id="logo">
+			<img src="../../img/logo-linux.png" alt="">
+		</figure>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="../index.php">Inicio</a></li>
+			<li><a href="../que-es-linux.php">¿Qué es linux?</a></li>
+			<li><a href="../tutoriales.php" id="activo">Tutoriales</a></li>
+			<li><a href="../streaming.php">Acerca de</a></li>
+			<li><a href="../contacto.php">Contacto</a></li>
+		</ul>
+	</nav>
+	<section id="contenido">
+		<article class="articulo">
+			<h4>Instalar kde en elementary os</h4>
+
+			<h2>1.- actualizar el sistema.</h2>
+			<p>para actualizar el sistema entramos en la consola con <strong>ctrl + alt + t</strong> y escribimos lo siguente: <strong>sudo apt-get update</strong> (les pedira su contraseña) y cuando termine escribimos <strong>sudo apt-get upgrade</strong>. Cuando termine tendremos el sistema actualizado</p>
+			<figure>
+				<img src="../img-tuto/img/elementary/update.png" alt="">
+			</figure>
+			<h2>2.- instalar el escritorio kde</h2>
+
+			<p>Lo primero es decir que al tener los dos entornos gráficos, se mezclaran las aplicaciones de KDE y Gnome en nuestro menú de aplicaciones por lo que tendremos un buen lío de aplicaciones, siendo muy desagradable tener que estar buscando entre tanto desorden.</p>
+
+			<p><strong>Nota:</strong> al instalar KDE también nos instalará un montón de paquetes propios de Kubuntu, por lo que tardará bastante, no desesperéis y terminad la instalación corectamente para no tener problemas después.</p>
+
+			<p><strong>Añadir los repositorios:</strong></p>
+
+			<p>Si queremos tener la última versión podemos añadir los repositorios desde una terminal ejecutando el comando:</p>
+
+			<p><strong>sudo add-apt-repository ppa:kubuntu-ppa/backports</strong></p>
+
+			<p>actualizamos otra vez pero de una manera mas corta:</p>
+
+			<p><strong>sudo apt-get update && sudo apt-get dist-upgrade</strong></p>
+
+			<p>En este momento tenemos la versión KDE4 pero en un futuro irá cambiando, por lo que deberemos de tenerlo en cuenta a la hora de instalar el paquete, cuyo nombre irá cambiando. Lo instalamos con el comando:</p>
+
+			<p><strong>sudo apt-get install kubuntu-desktop</strong></p>
+
+			<p>También instalamos el paquete de idiomas para KDE:</p>
+
+			<p><strong>sudo apt-get install language-pack-kde-es</strong></p>
+
+			<h2>Y ya tendremos kde en nuestro sistema</h2>
+			<figure>
+				<img src="../img-tuto/img/elementary/elementarykde.png" alt="">
+			</figure>
+		</article>
+	</section>		
+</body>
+</html>
