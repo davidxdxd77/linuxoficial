@@ -1,3 +1,4 @@
+/*Etiquetas de codigo HTML5*/
 *{
 	margin: 0;
 	padding: 0;
@@ -14,10 +15,13 @@ footer{
 	height: 100px;
 }
 footer p{
-	  color: #424439;
+  color: #424439;
   text-align: center;
   font-size: small;
   padding-top: 3px;
+}
+footer p:first-child{
+	margin-top: 20px;
 }
 header{
 	background: #0688F2;
@@ -108,6 +112,75 @@ nav ul li a:hover{
 	margin: 25px;
 	color: white;
 }
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+#chat{
+	border-radius: 20px;
+	border: 2px solid #ccc;
+	top: 0;
+	right: 0;
+	background: #FFF;
+	float: right;
+	width: 30%;
+	height: 500px;
+	margin: 10px 20px;
+	position: relative;
+}
+#chat #chat-campo{
+	margin: 10px;
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:0;
+}
+#chat #chat-campo #textbox{	
+  border: 1px solid #4d4d4d;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+  }
+ #chat #chat-campo #textbox:first-child{
+ 	margin-bottom: 2px;
+ }  
 #contactos{
 	left: 0;
 	right: 0;
@@ -169,62 +242,20 @@ nav ul li a:hover{
 	font-size: 16px;
 	margin: 40px;
 }
-#distros{
-	width: 100%;
-	left: 0;
-	right: 0;
-	text-align: center;
-	top: 0;
-	height: 600px;
-	
-}
-#home{
-	margin-top: 50px;
-	width: 100%;
-	left: 0;
-	right: 0;
-	text-align: center;
-	top: 0;
-	height: 600px;
-	
-}
-.MenuDistritos{
-  background: linear-gradient( to bottom, #0688F2, #FFFFFF);
-  width: 30%;
-  height: 100%;
-  border-radius: 0px 0px 100%;
-    box-shadow: 4px 4px 7px #888887;
-}
-.MenuDistritos  ul {
-
-  padding-top: 30px;
-    list-style: none;
+#ContenidoDistritos{
+	padding: 25px;
+  width: 70%;
+  /* left: 0; */
+  /* margin-top: 62px; */
+  margin: 0 auto 0 auto;
   }
-  
-.MenuDistritos  li a:hover{
-	color:#FFF;
-	text-shadow: 0px 0px 1px #ffffff;
-	padding-left:20px;
-	text-transform:uppercase;
-    
-}
-
-
-.MenuDistritos   li a{
-text-decoration: none;
- /* color: white;*/
-  line-height: 30px;
-  
-  
-	color:white;
-
+#ContenidoDistritos h2{
+	color: #333;
+	margin-bottom: 20px;
+}  
+#ContenidoDistritos .autor{
+	color: #444
   }
-#text-noticias{
-	text-align: center;
-	color: #323232;
-	font-size: 72px;
-	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-}
 .cont-noticias{
 	display: inline-block;
 	padding: 30px 70px;
@@ -248,7 +279,73 @@ text-decoration: none;
 }
 .cont-noticias a:hover{
 	color: #4d4d4d;
+}  
+#distros{
+	width: 100%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	height: 850px;
+	
 }
+#home{
+	margin-top: 50px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	height: 600px;
+	
+}
+#InformacionDistros{
+  width: 70%;
+ /* background: red;*/
+    height: 1000px;
+    position: relative;
+  float: left;
+}
+#intro{
+	color: #333;
+	margin: 25px 0;
+	font-size: 32px;
+}
+.MenuDistritos{
+  background: linear-gradient( to bottom, #0688F2, #FFFFFF);
+  width: 30%;
+  height: 100%;
+    float: left;
+  border-radius: 0px 0px 100%;
+    box-shadow: 4px 4px 7px #888887;
+}
+.MenuDistritos  ul {
+
+  padding-top: 30px;
+    list-style: none;
+    padding: 25px;
+  }
+.MenuDistritos  li a{
+	padding: 25px;
+}  
+.MenuDistritos  li a:hover{
+	color:#FFF;
+	text-shadow: 0px 0px 1px #ffffff;
+	padding-left:20px;
+	text-transform:uppercase;
+    
+}
+
+
+.MenuDistritos   li a{
+text-decoration: none;
+ /* color: white;*/
+  line-height: 30px;
+  
+  
+	color:white;
+
+  }
 #noticias{
 	background: ;
 	margin:  50px 15px;
@@ -274,12 +371,19 @@ width:641px;
 }/*aqui termina el slider*/
 #streaming{
 	padding:10px 30px 30px 30px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	top: 0;
+	width: 75%;
 }
-#streaming #intro{
+#streaming-contenedor{
+	margin: 25px 20px 0 20px;
+}
+ #textbox:focus
+  {
+  color: #2E3133;
+  border-color: #FBFFAD;
+  }
+}
+#intro{
+	text-align: center;
 	color: #444;
 	font-size: 38px;
 	padding: 12px 10px;
@@ -290,6 +394,12 @@ width:641px;
 	right: 0;
 	text-align: center;
 	top: 0;
+}
+#text-noticias{
+	text-align: center;
+	color: #323232;
+	font-size: 72px;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 #tutoriales{
 	left: 0;

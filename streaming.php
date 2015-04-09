@@ -26,16 +26,24 @@
 		</ul>
 		
 	</nav>
-	<section id="streaming">
-		<h2 id="intro">Disfruta las clases en vivo: </h2>
-		<video width="800px" controls autoplay>
-			<source src="fsaf.webm" type="video/webm" />
-			<source src="fasfa.mp4" type="video/mp4" />
-			<p>SU NAVEGADOR ES OBSOLETO</p>
-		</video> 
-	</section>
+	<div id="streaming-contenedor">
+		<section id="chat">
+			<aside>
+				<form action="comentarios.php" id="chat-campo" method="post">
+					<input type="text" placeholder="tu nombre" id="textbox" name="nombre">
+					<br>
+					<input type="text" placeholder="escribe tu comentario..." id="textbox" name="comentario"> 
+					<input type="submit" class="btn" value="comentar">
+				</form>
+			</aside>
+		</section>
+		<section id="streaming">
+			<iframe src="https://www.youtube.com/embed/qdpwgcDCLyg?modestbranding=1;autohide=1&amp;showinfo=0&amp;controls=0;"; frameborder="0" width="800px" height="400px"></iframe>
+			<h2 id="intro">video de prueba...</h2>
+		</section>
+	</div>
 	<footer>
-				<p>Web creada por la comunidad linux chile</p>
+		<p>Web creada por la comunidad linux chile</p>
 		<p>Copyright © Todos los Derechos Reservados, 2015</p>
 		<p>Linux Chile 2015</p>
 	</footer>
